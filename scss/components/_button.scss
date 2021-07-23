@@ -1,0 +1,27 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  border: 1px solid var(--clr-lightgray);
+  background-color: var(--clr-lightgray);
+  text-decoration: none;
+  margin-top: 1.6em;
+
+  &:hover {
+    background-color: transparent;
+    color: var(--clr-lightgray);
+  }
+
+  &--brightorange {
+    color: var(--clr-brightorange)
+  }
+
+  &--darkcyan {
+    color: var(--clr-darkcyan)
+  }
+
+  &--darkercyan {
+    color: var(--clr-darkercyan)
+  }
+}

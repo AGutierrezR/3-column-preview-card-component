@@ -1,0 +1,12 @@
+@use "../abstracts" as *;
+
+@each $_, $shade in $colors {
+  @each $prop, $value in $shade {
+    .text-#{$prop} {
+      color: var(--clr-#{$prop}) !important;
+    }
+    .bg-#{$prop} {
+      background-color: var(--clr-#{$prop}) !important;
+    }
+  }
+}
